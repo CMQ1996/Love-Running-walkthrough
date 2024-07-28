@@ -24,6 +24,9 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525;
 }
+.hidden-meaning {
+    display: none;
+}
 
 /* Header */
 header {
@@ -170,6 +173,7 @@ main {
     /*this will not wrap on screens less than 400px wide, each div will expand to fill the available space on its row*/
     flex-basis: 200px;
     flex-grow: 1;
+    /*creates a grid around the meetup divs*/
     border: 2px solid white;
 }
 #times h3 {
